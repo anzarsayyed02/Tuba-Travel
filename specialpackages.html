@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en"> <!-- Added missing lang attribute -->
+
+<head>
+    <meta charset="UTF-8"> <!-- Added missing charset -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tuba Umrah Services</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Added Google Fonts for Amiri -->
+    <link href="https://fonts.googleapis.com/css2?family=Amiri&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Previous navbar code remains unchanged -->
+    <nav class="navbar">
+        <div class="nav-brand">
+            <a href="/">
+                <img src="logo.png" alt="Tuba Umrah Logo" class="logo-img">
+                <span>Tuba Hajj & Umrah</span>
+            </a>
+        </div>
+
+        <div class="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="/index.html" class="active">Home</a></li>
+            <li class="dropdown">
+                <a href="#services">Services <i class="fas fa-chevron-down"></i></a>
+                <ul class="dropdown-content">
+                    <li><a href="#umrah">Recent Umrah Packages</a></li>
+                    <li><a href="/specialpackages.html" target="_blank">Special Umrah Packages </a></li>
+                    <li><a href="/coming-soon.html" class="hajj-link">Hajj Packages</a></li>
+                </ul>
+            </li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li class="dropdown">
+                <a href="#services">More <i class="fas fa-chevron-down"></i></a>
+                <ul class="dropdown-content">
+                    <li><a href="#umrah">Previous Packages</a></li>
+                    <li><a href="/coming-soon.html" class="hajj-link">Nearby Places</a></li>
+                </ul>
+            </li>
+            <li><a href="/aboutus.html">About Us</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Special Packages Section -->
+    <section class="special-packages" id="special">
+        <div class="section-title">
+            <div class="arabic">باقات خاصة</div>
+            <h2>Our Special Packages</h2>
+            <p>Exclusive combinations for a complete spiritual journey</p>
+        </div>
+
+        <div class="special-packages-container">
+            <!-- 15 Days Package -->
+            <div class="special-package-card closed">
+                <div class="package-image-wrapper">
+                    <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Special%20package%201-Up8r3HL1VUlXniZfJGyqH0x6jWgDrG.jpeg"
+                        alt="15 Days Umrah Package" class="main-image">
+                    <div class="package-label">Closed</div>
+                    <button class="view-full-btn" onclick="openLightbox(this)">
+                        <i class="fas fa-expand-alt"></i> View Full Image
+                    </button>
+                </div>
+                <div class="package-content">
+                    <h3>15 Days Special Package</h3>
+                    <div class="price-tag">₹72,000/-</div>
+                    <div class="package-dates">
+                        <div class="date-item">
+                            <span class="month">AUG</span>
+                            <span class="year">2024</span>
+                        </div>
+                        <div class="date-item">
+                            <span class="month">SEP</span>
+                            <span class="year">2024</span>
+                        </div>
+                        <div class="date-item">
+                            <span class="month">OCT</span>
+                            <span class="year">2024</span>
+                        </div>
+                        <div class="date-item">
+                            <span class="month">NOV</span>
+                            <span class="year">2024</span>
+                        </div>
+                        <div class="date-item">
+                            <span class="month">DEC</span>
+                            <span class="year">2024</span>
+                        </div>
+                    </div>
+                    <button type="button" class="book-now-btn11" disabled>Booking Closed</button>
+                </div>
+            </div>
+
+            <!-- Baghdad + Umrah Package -->
+            <div class="special-package-card">
+                <div class="package-image-wrapper">
+                    <img src="/Special Package/Special 3.jpeg" alt="Baghdad Plus Umrah Package" class="main-image">
+                    <div class="package-label">Air Arebiya</div>
+                    <button class="view-full-btn" onclick="openLightbox(this)">
+                        <i class="fas fa-expand-alt"></i> View Full Image
+                    </button>
+                </div>
+                <div class="package-content">
+                    <h3>Baghdad + Umrah Package</h3>
+                    <div class="price-tag">₹145,000/-</div>
+                    <ul class="package-features">
+                        <li>2 Nights in Najaf</li>
+                        <li>2 Nights in Karbala</li>
+                        <li>5 Nights in Baghdad</li>
+                        <li>8 Days Macca</li>
+                        <li>6 Days Madina Sharif</li>
+                    </ul>
+                    <div class="travel-dates">
+                        <p>25 Nov - Bom to Baghdad</p>
+                        <p>3 Dec - Najaf to Jeddah</p>
+                        <p>17 Dec - Jeddah to BOM</p>
+                    </div>
+                    <button type="button" class="book-now-btn11" disabled>Booking Closed</button>
+                </div>
+            </div>
+
+            <!-- Umrah Plus Dubai Package -->
+            <div class="special-package-card">
+                <div class="package-image-wrapper">
+                    <img src="/Special Package/Special package 2.jpeg" alt="Umrah Plus Dubai Package"
+                        class="main-image">
+                    <div class="package-label">Limited Offer</div>
+                    <button class="view-full-btn" onclick="openLightbox(this)">
+                        <i class="fas fa-expand-alt"></i> View Full Image
+                    </button>
+                </div>
+                <div class="package-content">
+                    <h3>Umrah + Dubai Package</h3>
+                    <div class="price-tag">₹135,999/-</div>
+                    <div class="package-duration">
+                        <div class="duration-item">
+                            <span>7 Days</span>
+                            <span>Macca</span>
+                        </div>
+                        <div class="duration-item">
+                            <span>7 Days</span>
+                            <span>Madina</span>
+                        </div>
+                        <div class="duration-item">
+                            <span>5 Days</span>
+                            <span>Dubai</span>
+                        </div>
+                    </div>
+                    <div class="available-dates">
+                        <p>Diwali: 29th Oct - 6th Nov 2024</p>
+                        <p>New Year: 28th Dec - 2nd Jan 2025</p>
+                        <p>Arab Health: 26th Jan - 1st Feb 2025</p>
+                        <p>Gulfood: 16th Feb - 21st Feb 2025</p>
+                    </div>
+                    <button type="button" class="book-now-btn11" disabled>Booking Closed</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Lightbox Modal -->
+        <div id="lightbox" class="lightbox">
+            <span class="close-lightbox" onclick="closeLightbox()">&times;</span>
+            <img id="lightbox-img" src="" alt="Full size image">
+        </div>
+    </section>
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Tuba Hajj & Umrah</h3>
+                <p>Your trusted partner for spiritual journeys</p>
+            </div>
+
+             <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#packages">Packages</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="/aboutus.html">About us</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+
+
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Contact Info</h3>
+                <p><i class="fas fa-phone" a href="tel:8108212388"></i> +91 8108212388 <br> +91 7666901786</p><br>
+                <p><i class="fas fa-envelope"></i> nadeemaka77@gmail.com</p><br>
+                <p><i class="fas fa-map-marker-alt"></i> Shop No 63/A, Sahara rahivasi Sangh, Umer Wadi Opp Galaxy Apt,
+                    Quresh Nagar,Kurla East, Mumbai 400070</p>
+            </div>
+
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="https://wa.me/8108212388" target="_blank" class="social-link whatsapp">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                    <a href="#" class="social-link facebook">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="#" class="social-link instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#" class="social-link youtube">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2025 Tuba Hajj & Umrah. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

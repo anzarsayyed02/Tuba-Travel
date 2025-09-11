@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en"> <!-- Added missing lang attribute -->
+
+<head>
+    <meta charset="UTF-8"> <!-- Added missing charset -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tuba Umrah Services</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Added Google Fonts for Amiri -->
+    <link href="https://fonts.googleapis.com/css2?family=Amiri&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Previous navbar code remains unchanged -->
+    <nav class="navbar">
+        <div class="nav-brand">
+            <a href="/">
+                <img src="logo.png" alt="Tuba Umrah Logo" class="logo-img">
+                <span>Tuba Hajj & Umrah</span>
+            </a>
+        </div>
+
+        <div class="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="/index.html" class="active">Home</a></li>
+            <li class="dropdown">
+                <a href="#services">Services <i class="fas fa-chevron-down"></i></a>
+                <ul class="dropdown-content">
+                    <li><a href="#umrah">Recent Umrah Packages</a></li>
+                    <li><a href="/specialpackages.html" target="_blank">Special Umrah Packages </a></li>
+                    <li><a href="/coming-soon.html" class="hajj-link">Hajj Packages</a></li>
+                </ul>
+            </li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li class="dropdown">
+                <a href="#services">More <i class="fas fa-chevron-down"></i></a>
+                <ul class="dropdown-content">
+                    <li><a href="/previouspackage.html" target="_blank">Previous Packages</a></li>
+                    <li><a href="/nearby.html" target="_blank" >Nearby Places</a></li>
+                </ul>
+            </li>
+            <li><a href="/aboutus.html">About Us</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="previous-packages" id="previous">
+        <div class="section-title">
+            <div class="arabic">باقات سابقة</div>
+            <h2>Our Previous Packages</h2>
+            <p>Browse through our successfully completed Umrah packages</p>
+        </div>
+
+        <div class="previous-packages-grid">
+            <!-- Luxury Package Card -->
+            <div class="previous-package-card black-theme">
+                <img src="/Previous Package/eid special.gif" alt="Luxury Umrah Package Details" class="package-image">
+            </div>
+
+            <!-- Coral Theme Package Card -->
+            <div class="previous-package-card coral-theme">
+                <img src="/Previous Package/umrah 1.png" alt="20 Days Umrah Package Details" class="package-image">
+            </div>
+
+            <!-- Blue Theme Package Card -->
+            <div class="previous-package-card blue-theme">
+                <img src="/Previous Package/umrah 2.png" alt="15 Days Umrah Package Details" class="package-image">
+            </div>
+
+            <!-- Eid Special Package Card -->
+            <div class="previous-package-card dark-theme">
+                <img src="/Previous Package/umrah 3.png" alt="Eid Milad Special Package Details" class="package-image">
+            </div>
+        </div>
+    </section>
+
+    <style>
+        /* Previous Packages Section Styles */
+        .previous-packages {
+            padding: 100px 20px;
+            background: #fff;
+        }
+
+        .previous-packages-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .previous-package-card {
+            border-radius: 15px;
+            overflow: hidden;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            position: relative;
+            aspect-ratio: 1;
+            cursor: pointer;
+        }
+
+        .previous-package-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+        }
+
+        .package-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+
+        .previous-package-card:hover .package-image {
+            transform: scale(1.05);
+        }
+
+        /* Theme Variations */
+        .black-theme {
+            background: #000;
+        }
+
+        .coral-theme {
+            background: #FF7F7F;
+        }
+
+        .blue-theme {
+            background: #E8F4FF;
+        }
+
+        .dark-theme {
+            background: #1a1a1a;
+        }
+
+        /* Responsive Adjustments */
+        @media (max-width: 768px) {
+            .previous-packages-grid {
+                grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+                padding: 1rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .previous-packages-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Tuba Hajj & Umrah</h3>
+                <p>Your trusted partner for spiritual journeys</p>
+            </div>
+
+             <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#packages">Packages</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="/aboutus.html">About us</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+
+
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Contact Info</h3>
+                <p><i class="fas fa-phone" a href="tel:8108212388"></i> +91 8108212388 <br> +91 7666901786</p><br>
+                <p><i class="fas fa-envelope"></i> nadeemaka77@gmail.com</p><br>
+                <p><i class="fas fa-map-marker-alt"></i> Shop No 63/A, Sahara rahivasi Sangh, Umer Wadi Opp Galaxy Apt,
+                    Quresh Nagar,Kurla East, Mumbai 400070</p>
+            </div>
+
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="https://wa.me/8108212388" target="_blank" class="social-link whatsapp">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                    <a href="#" class="social-link facebook">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="#" class="social-link instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#" class="social-link youtube">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2025 Tuba Hajj & Umrah. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
